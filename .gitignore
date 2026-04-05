@@ -6,3 +6,5 @@ coverage/
 *.log
 .env*
 !.env.example
+# Encrypted secrets (optional to commit; still protected by env-enc password)
+!.env.enc
