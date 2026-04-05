@@ -4,7 +4,10 @@ dist/
 coverage/
 .DS_Store
 *.log
-.env*
+# API keys and local secrets — never commit these (see README)
+.env
+.env.*
 !.env.example
-# Encrypted secrets (optional to commit; still protected by env-enc password)
-!.env.enc
+.env.local
+.env.*.local
+.env.enc
