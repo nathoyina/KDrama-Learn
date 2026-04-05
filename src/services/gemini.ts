@@ -72,7 +72,7 @@ export async function analyzeDramaAudio(audioBase64: string, mimeType: string): 
         }
       },
       {
-        text: "Transcribe the Korean speech in this audio, translate it to English, extract key vocabulary (slang, honorifics, grammar), and provide cultural context. Return the result in the specified JSON format."
+        text: "Transcribe the Korean speech in this audio. Focus on the main utterance if multiple sentences appear. Translate to English, extract key vocabulary (slang, honorifics, grammar), and provide cultural context. Return the result in the specified JSON format."
       }
     ],
     config: {
