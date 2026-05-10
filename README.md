@@ -16,6 +16,9 @@ Subtitles help you **follow the story**. DramaK Companion helps you **learn lang
 - **Self-directed learners** who prefer a **lightweight companion** over switching to a textbook or separate app for every new phrase.
 - **Technical users** comfortable running a **local** Node app and supplying their **own video files** (and optional `.srt` / `.vtt` for a clickable cue list).
 
+## Demo
+View public link on vercel here: k-drama-learn.vercel.app
+
 ## Run locally
 
 **Prerequisites:** Node.js
